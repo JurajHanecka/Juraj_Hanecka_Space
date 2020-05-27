@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Nasa objects</title>
+    <style>
+        table 
+        {
+            width: auto;
+            font: 17px Calibri;
+        }
+        table, th, td 
+        {
+            border: solid 1px #DDD;
+            border-collapse: collapse;
+            padding: 2px 3px;
+            text-align: center;
+        }
+        table img 
+        {
+            border: none;
+            width: 170px;
+            height: auto;
+        }
+        </style>
+</head>
+
+<body>
+
+    <body>
+        <nav class="container navbar navbar-expand-md navbar-dark bg-dark navbar fixed-top">
+            <a class="navbar-brand" href="index.html">The Space</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="objects.html">The nearest Objects</a>
+                            <a class="dropdown-item" href="today_pic.html">Pictures of the day</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" id="navlinkdisabled" href="album.html" tabindex="-1" aria-disabled="true">Album</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container" style="background:silver"> 
+            <div class="row pt-5"></div> 
+
+            <div class="row pt-sm-1 pt-md-3 pt-lg-1">
+                <h1>Your Album</h1>
+            </div>     
+
+            <div class="row pt-sm-1 pt-md-3 pt-lg-1">
+                <div class="col-sm-1"></div>
+                <div class="col-sm">
+                    <div class="d-flex justify-content-center">
+                        <p><input type="button" id="btShowImage" class="btn btn-outline-primary" value="Click to Show your Images" /></p>
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+
+            <div class="row pt-sm-1 pt-md-3 pt-lg-1">
+                <div class="col-sm-1"></div>
+                <div class="col-sm">
+                    <div class="d-flex justify-content-center">
+                        <p>Dear visitor this web page should demonstarte the project for my education at <b>UTB</b> ©Copy right: <b>Hanecka Juraj</b>. On this side 
+                            you can see the slide show from your pictures, for which you have been interested in past...till you do not clear your cache in web browser </p>
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+
+            <div class="row pt-sm-1 pt-md-3 pt-lg-1">
+                <div class="col-sm-1"></div>
+                <div class="col-sm">
+                    <div class="d-flex justify-content-center">
+                        <div id='showData'></div>
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+
+            <div class="row pt-5"></div>
+        </div>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+            <script src="js/main.js" async defer></script>
+    </body>
+
+</html>
